@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%; /* =10px */
+
+  }
+:root{
+    --titulo:'Roboto', sans-serif;
+    --texto: 'Open Sans', sans-serif;
+    --colorP: #E0F7FA;
+    --colorS: #A1E8DF;
+    --colorT:#7BDFF2;
+    --CtextoP:#333333;
+    --CtextoS:#333333;
+    --CtextoT:#FFFFFF;
+    --CborderP:#B0E0E6;
+    --CborderS:#7BDFF2;
+    --CborderT:#33C5FF;
+}
+body{
+    background-color:var(--colorP);
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+#reloj{
+    font-family: var(--texto);
+    font-size: 6rem;
+    color: var(--CtextoP);
+    width: 35rem;;
+}
+
+.reloj-contenedor{
+    background-color: #7BDFF2;
+    padding: 2.5rem;
+    max-width: 35rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    border: var(--CborderP) 0.2rem solid;
+
+}
+#fecha{
+    letter-spacing: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--titulo);
+}
+.animar{
+    /* border:var(--CtextoP) 0.2rem solid; */
+    box-shadow: -3px -3px 1px #FFFFFF;
+    text-shadow: -2px -1px 1px #FFFFFF;
+
+}
+@media(max-width:768px){
+    html {
+        font-size: 50%; /* =10px */
+      }
+
+}
