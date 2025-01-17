@@ -9,7 +9,7 @@ const mostrarReloj = ()=>{
     let mes;
     switch(fecha.getDay()){
         case 0:
-            diaSemana = "Domingo";
+            diaSemana = "domingo";
             break;
         case 1:
             diaSemana = "lunes";
@@ -32,40 +32,40 @@ const mostrarReloj = ()=>{
     }
     switch(fecha.getMonth()){
         case 0:
-            mes = "Enero";
+            mes = "enero";
             break;
         case 1:
-            mes = "Febrero";
+            mes = "febrero";
             break;
         case 2:
-            mes = "Marzo";
+            mes = "marzo";
             break;
         case 3:
-            mes = "Abril";
+            mes = "abril";
             break;
         case 4:
-            mes = "Mayo";
+            mes = "mayo";
             break;
         case 5:
-            mes = "Junio";
+            mes = "junio";
             break;
         case 6:
-            mes = "Julio";
+            mes = "julio";
             break;
         case 7:
-            mes = "Agosto";
+            mes = "agosto";
             break;
         case 8:
-            mes = "Septiembre";
+            mes = "septiembre";
             break;
         case 9:
-            mes = "Octubre";
+            mes = "octubre";
             break;
         case 10:
-            mes = "Noviembre";
+            mes = "noviembre";
             break;
         case 11:
-            mes = "Diciembre";
+            mes = "diciembre";
             break;          
     }
     let dia = fecha.getDate();
